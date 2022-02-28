@@ -1,0 +1,398 @@
+.header{
+    padding: 12px;
+    position: absolute;
+    z-index: 400;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+.logo{
+    height: 40px; 
+    transition:.2s;
+    position: absolute;
+    top:0px;
+}
+.logo a img{
+    width: 40%; 
+  
+transition-duration: 0.5s;
+}
+.nav{
+    transition: .2s;
+}
+.nav ul{
+    transition:.2s;
+    list-style: none;
+}
+.nav li{
+    margin-left: 32px;
+    position: relative;
+}
+.nav li a{
+    text-decoration: none;
+    color: #272D4E;
+    font-size: 18px;
+    font-weight: 700;
+}
+.nav li a:hover{
+     color:#c99b43;
+}
+a:hover{
+    opacity: 0.7;
+}
+.right-nav a{
+    font-weight:700;
+}
+
+.nav ul li:hover .sub-menu {
+    visibility: visible;
+    opacity: 1;
+}
+.banner{
+    padding:60px 0;
+
+    height: 100vh;
+    /* overflow: hidden;  */
+    position: relative;
+    margin-bottom: 80px;
+}
+.banner img{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover; 
+}
+.title{
+    position: absolute;
+    top:30%;
+    width: 100%;
+    padding-right: 40%;
+    z-index: 300;
+    background-color: rgba(221, 184, 64, 0.281);  
+    opacity:0.5;
+    transition-duration:0.5s;
+} 
+.title h1{
+    color:  #fff;
+    margin-bottom:24px;
+}
+.banner:hover .title{
+    visibility:visible;
+    opacity: 1;
+    transition-delay:  0.5s;
+}
+
+/*---card Feature properties--*/
+.Featured-properties{
+    padding: 200px 0 200px;
+}
+.title-properties{
+    margin-bottom: 60px; 
+}
+.FeaturedItemCard-img{
+    overflow: hidden;
+    height: 320px;
+    background: url("../img/bat-dong-san-thuong-mai.jpg");
+    background-color: #959595;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.FeaturedItemCard {
+ 
+    box-shadow: -12px 20px 44px rgba(136, 138, 137, 0.4); 
+}
+.FeaturedItemCard-ct{
+    padding: 40px;
+ }
+a .FeaturedItemCard-ct{
+    color: #7a7c7c;
+    font-weight: 400;
+    font-style: 18px;
+}
+.FeaturedItemCard a .shop{
+    color: #909292;
+   font-size: 22px;
+   font-weight:700;
+   padding-bottom: 40px;
+}
+.FeaturedItemCard-ct h3{
+    margin: 20px 0 40px;
+}
+.FeaturedItemCard-ct .address {
+    /* color:#327c95; */
+   color: #137c59;
+    font-style: italic;
+    margin: 40px 0 0;
+    font-family: 'DM Serif Text', serif;
+}
+.address-2{
+    margin: 40px 0 40px 40px;
+    padding-bottom: 100px;
+}
+.address-2:hover{
+    opacity: 0.5;
+}
+.center-card{
+    margin-top: -20px;
+}
+.end-card{
+    margin-top: -40px;
+}
+/*---Develop---*/    
+.Develop{
+    position: relative;
+    background-color: #063047;
+    padding: 0;
+    margin-bottom: 90px;
+    box-shadow: 0px 0px 5px 5px #999999;
+}    
+.bg-img-bang-gia{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+      position: relative;
+  
+}
+.bg-img-bang-gia img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.develop-ct-1{
+    width: 420px;
+    height: 100%;
+    position: absolute;
+    top:25%    ;
+}
+.develop-ct-1 p{
+    margin: 12px 0 60px;
+}
+.develop-img-2{
+    width: 100%;
+    overflow: hidden; 
+    height: 460px;
+    box-shadow: 0px 20px 44px rgba(7, 31, 66, 0.4);
+}
+.develop-ct-2{
+    margin-top: 30px; 
+}
+.develop-img-2 img{
+    height: 100%;
+}
+.develop-ct-2 p{
+    margin: 12px 0 60px;
+}
+/*Testimohial*/
+.Testimohial{
+ 
+    padding: 200px 0;
+}
+.title-ecommerce{
+    margin-bottom: 80px;
+    margin-left: 238px;
+   
+}
+.noi-dung-feedback{
+    position: relative;
+
+}
+
+.layer-1{
+    position: absolute;
+    width: 450px; 
+    height: 300px;
+    box-shadow: 0 5px 25px 5px rgba(215, 228, 249, 0.5);
+    border-radius: 20px;
+    top: 80px;
+    left: -400px;
+    z-index: 10;
+    background-image: url("../img/Tien-ich-Gym-Center-tai-Picity-High-Park-2020.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+.layer-2{
+    position: absolute;
+    width: 450px; 
+    height: 300px; 
+    box-shadow: 0 5px 25px 5px rgba(215, 228, 249, 0.8);
+    border-radius: 20px;
+    top: 56px;
+    left:350px; 
+    z-index: 15;
+    background-image: url("../img/cover-facebook-fanpage-min.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+.layer-3{
+    position: relative;
+    width: 450px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0 5px 25px 5px rgba(215, 228, 249, 0.5);
+    border-radius: 20px;
+    margin: 0 auto;
+    z-index: 20;
+    background-image: url("../img/batdongsan.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+/* Payment */
+.Payment{
+    position: relative;
+    padding: 150px 0 240px;
+}
+.noidung-payment{
+    margin-top: 40px;
+}
+.noidung-payment p{
+    margin: 32px 0 56px;
+}
+.noidung-payment span{
+    margin: 0px 4px 12px;
+}
+/*the thanh toan*/
+.Card-payment{
+
+    height: 645px;
+    position: relative;
+}
+.image img{
+    position: absolute;
+}
+.card-1{
+    top: 0;
+    left: 40px;
+    z-index: 200;
+    position: absolute;
+    width: 340px;
+    height: 210px;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0px 18px 52px rgba(215, 228, 249, 0.5);
+}
+.img-1{
+    width: 100%;
+}
+.card-2{
+    width: 100%;
+    height: 282px;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    position: absolute;
+    z-index: 150;
+    background-color:  #045279;;
+    border-radius: 24px;
+    overflow: hidden;
+
+    transition-duration: 2s;
+}
+.khung2{
+    width: 50%;
+    height: 282px;
+      overflow: hidden;
+}
+.img-2{
+    height: 100%;
+}
+.card-2-content{
+    width: 50%;
+    padding: 30px;
+}
+.card-2-content a{
+    color: #70C217;
+}
+.card-2:hover+.Card-3{
+    z-index: 140;
+    transition-delay: 1s;
+    transition-property:none;
+    opacity: 0.8;
+
+}
+.Card-3{
+    position: absolute;
+    width: 406px;
+    height: 248px;
+    right: 0;
+    bottom: -10px;
+    z-index: 210;
+    background-color: white;
+    border-radius: 24px;
+    overflow: hidden;
+    padding: 16px 30px 16px;
+    box-shadow: 0px 18px 52px rgba(215, 228, 249, 0.5);
+    transition-duration: 2s;
+}
+.hr-line{
+    width: 95%;
+    height: 0;
+    border-color:rgba(241, 241, 241, 0.185)
+    }
+.thanh-toan-1 span{
+    margin: 20px 40px;
+}
+.mini-btn{
+    margin-left: 60px;
+}
+/* Footer */
+.Footer{
+    background-color: #063047;
+    color:#ecb144;
+    height: 100vh;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 400;
+    position: relative;
+}
+.footer-left{
+    text-align: left;
+
+}
+.footer1 a{
+    text-decoration: underline;
+    color:#ecb144;
+    font-size: 22px;
+    font-weight: 400;
+}
+.footer1 a:hover  {
+   color:#f0efec;
+}
+.footer-right a{
+    text-decoration: none;
+} 
+
+.footer-right{
+    text-align: right;
+}
+a.footer-social {
+    font-size: 22px;
+    font-weight: 400;
+}
+.media-relations{
+    font-size: 18px;
+    color: #967c49;
+}
+.media-relations a{
+    font-size: 18px;
+    font-weight: 400;
+    color: #967c49;
+    padding: 0 0 0 12px;
+}
+.media-relations a:hover{
+    opacity: 0.6;
+}
+
+.Footer:hover{
+  
+    top:0;
+    transition-duration: 1s;
+    transition-delay: 2s;
+    z-index: 500;
+}
